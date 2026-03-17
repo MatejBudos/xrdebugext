@@ -1,8 +1,9 @@
 import * as vscode from "vscode";
 import * as net from "net";
+import console from "console";
 
 
-const AST_PROXY_HOST = "192.168.0.103";
+const AST_PROXY_HOST = "192.168.0.185";
 const AST_PROXY_PORT = 4720;
 
 let client: net.Socket | null = null;
